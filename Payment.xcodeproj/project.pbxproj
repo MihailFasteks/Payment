@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6A33422ADBD7CF009AFD05 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6A33412ADBD7CF009AFD05 /* main.cpp */; };
+		DB6A334A2ADBD7DC009AFD05 /* Payment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB6A33482ADBD7DC009AFD05 /* Payment.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DB6A333E2ADBD7CF009AFD05 /* Payment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Payment; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6A33412ADBD7CF009AFD05 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB6A33482ADBD7DC009AFD05 /* Payment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Payment.cpp; sourceTree = "<group>"; };
+		DB6A33492ADBD7DC009AFD05 /* Payment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Payment.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DB6A33412ADBD7CF009AFD05 /* main.cpp */,
+				DB6A33482ADBD7DC009AFD05 /* Payment.cpp */,
+				DB6A33492ADBD7DC009AFD05 /* Payment.hpp */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6A334A2ADBD7DC009AFD05 /* Payment.cpp in Sources */,
 				DB6A33422ADBD7CF009AFD05 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
